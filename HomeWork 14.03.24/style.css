@@ -1,0 +1,30 @@
+*
+table,
+th,
+td
+
+{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+  }
+
+ul
+{
+    list-style-type: lower-latin;
+list-style-position: outside;
+}
+
+tr:nth-child(odd){
+background-color: cyan;
+}
+
+tr:nth-child(even){
+    background-color: khaki;
+}
+
+
